@@ -1,6 +1,6 @@
 {
-    "DefaultServerUrl": "",
-    "TestServerUrl": "http://localhost:8065",
+    "DefaultServerUrl": "http://www.hirefish.co",
+    "TestServerUrl": "http://www.hirefish.co",
     "DefaultTheme": "default",
     "ShowErrorsList": false,
     "MinServerVersion": "4.0.0",
