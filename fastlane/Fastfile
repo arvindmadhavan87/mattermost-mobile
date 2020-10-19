@@ -123,7 +123,8 @@ lane :set_app_build_number do
   ## set the build number for both platforms
   # use the one for iOS if no env variable set
   if ENV['INCREMENT_BUILD_NUMBER'] === 'true'
-    build_number = ENV['BUILD_NUMBER'] || (get_build_number(xcodeproj: './ios/Mattermost.xcodeproj').to_i + 1)
+    #build_number = ENV['BUILD_NUMBER'] || (get_build_number(xcodeproj: './ios/Mattermost.xcodeproj').to_i + 1)
+    build_number=331
     increment_build_number(
         xcodeproj: './ios/Mattermost.xcodeproj',
         build_number: build_number
